@@ -1,4 +1,6 @@
-# `treemap-svg` :: a CLI tool for drawing treemap diagrams
+# `treemap-svg` :: a CLI tool for drawing treemap charts
+
+Takes a YAML-formatted data file and produces a Scalable Vector Graphics (SVG 2.0) file, containing a treemap chart.
 
 ## Generic information on building from source with Cargo
 
@@ -46,6 +48,7 @@ $ export PATH=$PATH
 ### Uninstalling
 
 `cargo uninstall treemap-svg`
+
 
 ## Example
 
@@ -107,9 +110,21 @@ Lietuva:
     Jurbarkas: 12972
 ```
 
-... generates such treemap diagram on default:
+... generates such treemap chart on default:
 
 ![](example/lt-cities.png)
 
-Note: this is a PNG image representing SVG output.
+
+## Remarks
+
+At the time of writing, this program is in an alpha stage. Feel free to contribute
+
+## Similar OSS projects
+
+The list may be incomplete.
+
+- R/ggplot2: [Treemap](https://github.com/mtennekes/treemap) [Treemapify](https://github.com/wilkox/treemapify), [Plotly](https://github.com/plotly/plotly.R)
+- Python: [Plotly](https://github.com/plotly/plotly.py)
+- Javascript: [Plotly](https://github.com/plotly/plotly.js)
+- Web: [https://github.com/evmar/webtreemap]
 
