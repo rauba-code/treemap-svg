@@ -1,0 +1,3 @@
+# .gitignore file
+# ignore target directory in the root
+/target
