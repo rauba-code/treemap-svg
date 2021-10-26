@@ -1,0 +1,1 @@
+/home/arnoldas/Code/eclipse-rust/treemap/target/debug/treemap: /home/arnoldas/Code/eclipse-rust/treemap/src/io.rs /home/arnoldas/Code/eclipse-rust/treemap/src/main.rs /home/arnoldas/Code/eclipse-rust/treemap/src/svgx.rs /home/arnoldas/Code/eclipse-rust/treemap/src/utils.rs

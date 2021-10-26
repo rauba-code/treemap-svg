@@ -1,0 +1,16 @@
+[package]
+name = "treemap-svg"
+version = "0.1.0"
+authors = ["Arnoldas Rauba <rauba-code>"]
+edition = "2018"
+
+[profile.release]
+lto = true
+
+[dependencies]
+string-builder = "0.2.0"
+float-cmp = "0.9.0"
+structopt = "0.3.25"
+
+[dependencies.yaml-rust]
+git = "https://github.com/chyh1990/yaml-rust.git"
