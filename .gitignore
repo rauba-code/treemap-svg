@@ -4,3 +4,6 @@
 
 # ignore VIM auto-generated .swp files
 *.swp
+
+# ignore Ghostwriter auto-generated .backup files
+*.md.backup
