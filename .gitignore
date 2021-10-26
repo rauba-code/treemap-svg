@@ -1,3 +1,6 @@
 # .gitignore file
 # ignore target directory in the root
 /target
+
+# ignore VIM auto-generated .swp files
+*.swp
