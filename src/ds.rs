@@ -73,7 +73,7 @@ pub struct Text {
 }
 
 #[derive(Clone, Copy)]
-pub struct Line { pub a : Point, pub off : Point }
+pub struct Line { pub a : Point, pub off : Point, pub stroke_w : f64 }
 #[derive(Clone)]
 pub struct Rect { pub a : Point, pub off : Point }
 pub struct Svgx {
@@ -111,9 +111,10 @@ impl Printer for Line {
          else if self.off.y == 0.0 { 'h' }
          else { todo!() };
         let length = self.off.x.max(self.off.y);
-        format!(r#"    <path style="fill:none;stroke:#000000;stroke-width:1px;
+        format!(r#"    <path style="fill:none;stroke:#000000;stroke-width:{}px;
           stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-      d="M {},{} {} {}"/>"#, self.a.x, self.a.y, direction, length)
+      d="M {},{} {} {}"/>"#, self.stroke_w, self.a.x, self.a.y, direction, 
+      length)
     }
 }
 

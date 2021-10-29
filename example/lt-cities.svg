@@ -1,0 +1,326 @@
+<svg
+    width="840"
+    height="840"
+    viewBox="0 0 840 840"
+    version="2"
+    id="svg1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1" />
+  <g id="chart1">
+    <rect style="fill:none;stroke:#000000;stroke-width:1px;"
+      width="800"
+      height="800"
+      x="20"
+      y="20"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 298.418266972255,20 v 800"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 298.418266972255,289.77517629036504 h 521.581733027745"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 298.418266972255,427.4411390182936 h 521.581733027745"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 446.58237362297615,427.4411390182936 v 392.5588609817064"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 446.58237362297615,547.7017054489316 h 373.41762637702385"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 545.6451454696544,547.7017054489316 v 272.29829455106835"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 640.0143502475219,547.7017054489316 v 272.29829455106835"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 640.0143502475219,657.0308354017845 h 179.98564975247814"/>
+    <path style="fill:none;stroke:#000000;stroke-width:1.3333333333333333px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 742.8696820487216,657.0308354017845 v 162.96916459821546"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 189.8053350986974,746.2774689989512 v 73.72253100104876"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 244.70004693448195,746.2774689989512 v 73.72253100104876"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 119.62611637446209,746.2774689989512 v 73.72253100104876"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 20,746.2774689989512 h 278.418266972255"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 693.9350847564167,96.38359104091555 h 126.0649152435833"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 693.9350847564167,161.93824774283593 h 126.0649152435833"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 693.9350847564167,200.74144732434482 h 126.0649152435833"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 739.790639984634,200.74144732434482 v 89.03372896602022"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 739.790639984634,245.57181085301005 h 80.20936001536597"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 693.9350847564167,20 v 269.77517629036504"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 693.9909655596366,337.7345607553393 h 126.0090344403634"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 759.1445181534385,337.7345607553393 v 89.70657826295428"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 693.9909655596366,289.77517629036504 v 137.66596272792856"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 337.31753482914075,677.9639441788547 v 142.03605582114528"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 337.31753482914075,725.31485491226 h 109.2648387938354"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 379.1968088759801,725.31485491226 v 94.68514508774001"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 379.1968088759801,781.029177775745 h 67.38556474699607"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 298.418266972255,677.9639441788547 h 148.16410665072112"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 705.1234810688682,475.8575247014928 h 114.87651893113184"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 777.9186823397065,475.8575247014928 v 71.84418074743883"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 705.1234810688682,427.4411390182936 v 120.26056643063805"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 503.9600752173493,729.9880480542084 v 90.01195194579157"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 446.58237362297615,729.9880480542084 h 99.06277184667823"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 545.6451454696544,755.2967165134565 h 94.36920477786748"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 545.6451454696544,673.092073387342 h 94.36920477786748"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 724.6705386089503,547.7017054489316 v 109.3291299528529"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 724.6705386089503,616.6044026855561 h 95.32946139104968"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 742.8696820487216,758.7093817938053 h 77.13031795127836"/>
+    <path style="fill:none;stroke:#000000;stroke-width:0.4444444444444444px;
+          stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 640.0143502475219,780.611179171268 h 102.85533180119978"/>
+    <text x="121.0297007489468" y="754.6139095261938" 
+    font-size="8.16630908791102" textLength="67.37204997526591" 
+    lengthAdjust="spacingAndGlyphs">
+      Elektrėnai
+    </text>
+    <text x="245.7744113352374" y="752.6585424094988" 
+    font-size="6.250847422577232" textLength="51.56949123626216" 
+    lengthAdjust="spacingAndGlyphs">
+      Grigiškės
+    </text>
+    <text x="190.9032293354131" y="754.247367902517" 
+    font-size="7.807247905533803" textLength="52.698923362353156" 
+    lengthAdjust="spacingAndGlyphs">
+      Lentvaris
+    </text>
+    <text x="21.99252232748924" y="762.5497346734467" 
+    font-size="15.940178619913937" textLength="95.6410717194836" 
+    lengthAdjust="spacingAndGlyphs">
+      Ukmergė
+    </text>
+    <text x="25.5683653394451" y="71.97140983482093" 
+    font-size="50.91076881778377" textLength="267.2815362933648" 
+    lengthAdjust="spacingAndGlyphs">
+      Vilnius
+    </text>
+    <text x="696.4563830612884" y="47.454137097491476" 
+    font-size="26.89384858529777" textLength="121.02231863383997" 
+    lengthAdjust="spacingAndGlyphs">
+      Jonava
+    </text>
+    <text x="696.4563830612884" y="112.85607329941044" 
+    font-size="16.13630915117866" textLength="121.02231863383997" 
+    lengthAdjust="spacingAndGlyphs">
+      Kėdainiai
+    </text>
+    <text x="696.4563830612884" y="182.52885056595454" 
+    font-size="20.17038643897333" textLength="121.02231863383997" 
+    lengthAdjust="spacingAndGlyphs">
+      Garliava
+    </text>
+    <text x="694.852195860981" y="207.39899460192302" 
+    font-size="6.521678965790909" textLength="44.02133301908864" 
+    lengthAdjust="spacingAndGlyphs">
+      Raseiniai
+    </text>
+    <text x="741.3948271849414" y="254.30571894357212" 
+    font-size="8.555665068305705" textLength="77.00098561475133" 
+    lengthAdjust="spacingAndGlyphs">
+      Kaišiadorys
+    </text>
+    <text x="741.3948271849414" y="215.7138611938798" 
+    font-size="14.66685440280978" textLength="77.00098561475133" 
+    lengthAdjust="spacingAndGlyphs">
+      Prienai
+    </text>
+    <text x="306.32860332793825" y="106.13477365077301" 
+    font-size="84.37692112728784" textLength="379.6961450727952" 
+    lengthAdjust="spacingAndGlyphs">
+      Kaunas
+    </text>
+    <text x="696.5111462484439" y="310.35665191562435" 
+    font-size="20.161445510458144" textLength="120.96867306274886" 
+    lengthAdjust="spacingAndGlyphs">
+      Kretinga
+    </text>
+    <text x="760.3616277903698" y="347.67428945694434" 
+    font-size="9.736877095449838" textLength="58.421262572699014" 
+    lengthAdjust="spacingAndGlyphs">
+      Šilutė
+    </text>
+    <text x="695.2940366115126" y="349.8965572395157" 
+    font-size="11.913792474295208" textLength="62.54741049004984" 
+    lengthAdjust="spacingAndGlyphs">
+      Palanga
+    </text>
+    <text x="306.32972094400264" y="347.20647178897747" 
+    font-size="56.25922824353872" textLength="379.74979064388634" 
+    lengthAdjust="spacingAndGlyphs">
+      Klaipėda
+    </text>
+    <text x="299.19625232939273" y="682.1996422343823" 
+    font-size="4.149255238067812" textLength="37.3432971426103" 
+    lengthAdjust="spacingAndGlyphs">
+      Radviliškis
+    </text>
+    <text x="339.5028316050175" y="692.2412164479159" 
+    font-size="13.985899365610933" textLength="104.89424524208198" 
+    lengthAdjust="spacingAndGlyphs">
+      Kuršėnai
+    </text>
+    <text x="338.15512031007756" y="731.3951050701714" 
+    font-size="5.956163419994928" textLength="40.20410308496575" 
+    lengthAdjust="spacingAndGlyphs">
+      Joniškis
+    </text>
+    <text x="380.54452017092" y="786.8992091937055" 
+    font-size="5.750234858410332" textLength="64.69014215711623" 
+    lengthAdjust="spacingAndGlyphs">
+      Naujoji Akmenė
+    </text>
+    <text x="380.54452017092" y="739.9899334571613" 
+    font-size="14.375587146025829" textLength="64.69014215711623" 
+    lengthAdjust="spacingAndGlyphs">
+      Kelmė
+    </text>
+    <text x="301.38154910526947" y="448.9523722801761" 
+    font-size="21.072228501435898" textLength="142.2375423846923" 
+    lengthAdjust="spacingAndGlyphs">
+      Šiauliai
+    </text>
+    <text x="707.4210114474907" y="448.8847558854382" 
+    font-size="21.00599203312125" textLength="110.28145817388656" 
+    lengthAdjust="spacingAndGlyphs">
+      Biržai
+    </text>
+    <text x="778.7603086929124" y="482.7308065860074" 
+    font-size="6.733010825646961" textLength="40.398064953881764" 
+    lengthAdjust="spacingAndGlyphs">
+      Pasvalys
+    </text>
+    <text x="706.5793850942849" y="486.4263094785923" 
+    font-size="10.353095291852565" textLength="69.8833932200048" 
+    lengthAdjust="spacingAndGlyphs">
+      Rokiškis
+    </text>
+    <text x="451.753195771894" y="458.15268875126014" 
+    font-size="30.084783411885617" textLength="248.19946314805634" 
+    lengthAdjust="spacingAndGlyphs">
+      Panevėžys
+    </text>
+    <text x="504.7937766223954" y="737.7692611679721" 
+    font-size="7.622412846135786" textLength="40.017667442212876" 
+    lengthAdjust="spacingAndGlyphs">
+      Varėna
+    </text>
+    <text x="447.7299276548636" y="736.235842227818" 
+    font-size="6.120288170066471" textLength="55.082593530598224" 
+    lengthAdjust="spacingAndGlyphs">
+      Druskininkai
+    </text>
+    <text x="448.5636290599097" y="569.2753757622083" 
+    font-size="21.13339132729136" textLength="95.1002609728111" 
+    lengthAdjust="spacingAndGlyphs">
+      Alytus
+    </text>
+    <text x="547.5325295652117" y="772.9123014053251" 
+    font-size="17.25608315938148" textLength="90.59443658675278" 
+    lengthAdjust="spacingAndGlyphs">
+      Plungė
+    </text>
+    <text x="547.5325295652117" y="688.505710167727" 
+    font-size="15.0990727644588" textLength="90.59443658675278" 
+    lengthAdjust="spacingAndGlyphs">
+      Telšiai
+    </text>
+    <text x="547.5325295652117" y="560.0326148732397" 
+    font-size="12.079258211567039" textLength="90.59443658675278" 
+    lengthAdjust="spacingAndGlyphs">
+      Mažeikiai
+    </text>
+    <text x="641.7074740147505" y="569.8251893407183" 
+    font-size="21.671984220525687" textLength="81.26994082697132" 
+    lengthAdjust="spacingAndGlyphs">
+      Utena
+    </text>
+    <text x="726.5771278367713" y="627.9283871901899" 
+    font-size="11.092882780049418" textLength="91.51628293540769" 
+    lengthAdjust="spacingAndGlyphs">
+      Anykščiai
+    </text>
+    <text x="726.5771278367713" y="561.5421309545952" 
+    font-size="13.557967842282622" textLength="91.51628293540769" 
+    lengthAdjust="spacingAndGlyphs">
+      Visaginas
+    </text>
+    <text x="744.4122884077472" y="769.9075612889538" 
+    font-size="10.969645219737368" textLength="74.04510523322722" 
+    lengthAdjust="spacingAndGlyphs">
+      Jurbarkas
+    </text>
+    <text x="744.4122884077472" y="669.6287873338267" 
+    font-size="12.34085087220454" textLength="74.04510523322722" 
+    lengthAdjust="spacingAndGlyphs">
+      Tauragė
+    </text>
+    <text x="642.0714568835458" y="791.8109819673986" 
+    font-size="10.971235392127978" textLength="98.74111852915179" 
+    lengthAdjust="spacingAndGlyphs">
+      Vilkaviškis
+    </text>
+    <text x="642.0714568835458" y="668.2306381979151" 
+    font-size="10.971235392127978" textLength="98.74111852915179" 
+    lengthAdjust="spacingAndGlyphs">
+      Marijampolė
+    </text>
+  </g>
+</svg>

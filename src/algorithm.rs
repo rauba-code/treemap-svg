@@ -55,28 +55,31 @@ fn create_text(rect : &ds::Rect, msg : String) -> ds::Text {
 
 /// Composes a SVG layer from the given data using greedy recursive algorithm
 pub fn compose(root_node : & Node, rect : &ds::Rect) -> Layer {
-    let mut layer3 : _Layer = compose_greedy_rec(&root_node.children, rect);
+    let mut line_stroke_w = 4.0;
+    let mut last_layer : _Layer = compose_greedy_rec(&root_node.children, rect,
+        line_stroke_w);
     let mut layers = Vec::<_Layer>::new();
     let mut texts : Vec<ds::Text> = Vec::<ds::Text>::new();
     loop {
-        let a = layer3.rects.iter().filter(|x| !x.0.children.is_empty())
+        line_stroke_w /= 3.0;
+        let a = last_layer.rects.iter().filter(|x| !x.0.children.is_empty())
             .map(|x : &(& Node, ds::Rect)| 
-                compose_greedy_rec(&x.0.children, &x.1))
+                compose_greedy_rec(&x.0.children, &x.1, line_stroke_w))
             .collect::<Vec<_Layer>>();
-        let layer2 = _Layer {    
+        let iteration_layer = _Layer {    
             lines: a.iter().map(|x : &_Layer| x.lines.clone())
                     .flatten().collect::<Vec<_>>(),
             rects: a.iter().map(|x : &_Layer| x.rects.clone())
                     .flatten().collect::<Vec<_>>()
         };
-        for (node, rect) in &layer3.rects {
+        for (node, rect) in &last_layer.rects {
             if node.children.is_empty() {
                 texts.push(create_text(rect, node.text.clone()));
             }
         }
-        layers.push(layer2.clone());
-        layer3 = layer2.clone();
-        if layer2.rects.is_empty() {
+        layers.push(iteration_layer.clone());
+        last_layer = iteration_layer;
+        if last_layer.rects.is_empty() {
             break;
         }
     }
@@ -89,7 +92,8 @@ pub fn compose(root_node : & Node, rect : &ds::Rect) -> Layer {
 }
 
 /// Composes a SVG layer from the given data using greedy recursive algorithm
-fn compose_greedy_rec<'a>(ordered_nodes : &'a [Node], rect : &ds::Rect)
+fn compose_greedy_rec<'a>(ordered_nodes : &'a [Node], rect : &ds::Rect, 
+    line_stroke_w : f64)
  -> _Layer<'a> {
     let total_count = ordered_nodes.len();
     if total_count < 1 {
@@ -111,14 +115,16 @@ fn compose_greedy_rec<'a>(ordered_nodes : &'a [Node], rect : &ds::Rect)
         let v = rect.off.x >= rect.off.y;
         let line = ds::Line {
           a: rect.a + (ds::Point { x: node_length, y: node_length }).mask(!v),
-          off: (ds::Point { x: rect_width, y: rect_width }).mask(v)
+          off: (ds::Point { x: rect_width, y: rect_width }).mask(v),
+          stroke_w: line_stroke_w
         };
         let local_rect = ds::Rect {
             a: rect.a,
             off: line.a + line.off - rect.a
         };
         let mut result = compose_greedy_rec(&ordered_nodes[1..], 
-            &ds::Rect { a: line.a, off: rect.a + rect.off - line.a});
+            &ds::Rect { a: line.a, off: rect.a + rect.off - line.a}, 
+            line_stroke_w);
         result.lines.push(line);
         result.rects.push((node, local_rect));
         return result;
@@ -134,11 +140,13 @@ fn compose_greedy_rec<'a>(ordered_nodes : &'a [Node], rect : &ds::Rect)
             };
     let rem_line = ds::Line {
         a: rect.a + node_off.mask(!best.is_xy),
-        off: rect.off.mask(best.is_xy)
+        off: rect.off.mask(best.is_xy),
+        stroke_w: line_stroke_w
     };
     let adj_line = ds::Line {
         a: rect.a + node_off.mask(best.is_xy),
-        off: node_off.mask(!best.is_xy)
+        off: node_off.mask(!best.is_xy),
+        stroke_w: line_stroke_w
     };
     let rem = &ds::Rect { a: rem_line.a, off: rect.a + rect.off - rem_line.a };
     let adj = &ds::Rect { a: adj_line.a, off: if best.is_xy { 
@@ -150,7 +158,8 @@ fn compose_greedy_rec<'a>(ordered_nodes : &'a [Node], rect : &ds::Rect)
         if best.adj_area == 0.0 { 
             _Layer::new() 
         } else { 
-            compose_greedy_rec(&ordered_nodes[1..(best.value+1)], adj) 
+            compose_greedy_rec(&ordered_nodes[1..(best.value+1)], adj,
+                line_stroke_w) 
         };
     let local_rect = ds::Rect {
         a: rect.a,
@@ -165,7 +174,8 @@ fn compose_greedy_rec<'a>(ordered_nodes : &'a [Node], rect : &ds::Rect)
         if total_count - best.value <= 2 {
             _Layer::new()
         } else {
-            compose_greedy_rec(&ordered_nodes[(best.value+1)..], rem)
+            compose_greedy_rec(&ordered_nodes[(best.value+1)..], rem, 
+                line_stroke_w)
         };
     result_adj.lines.extend(result_rem.lines.iter().cloned());
     result_adj.rects.extend(result_rem.rects.iter().cloned());

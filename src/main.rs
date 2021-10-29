@@ -25,7 +25,7 @@ fn main() {
     
     let g = ds::Graphic { id: "chart1".to_string(), lines : layer.lines,
         texts : layer.texts, rect};
-    let svgx = ds::Svgx { width: 900, height: 900, g, id: "svg1".to_string() };
+    let svgx = ds::Svgx { width: 840, height: 840, g, id: "svg1".to_string() };
     
     yaml_io::write_data(opt.output, svgx.print().as_bytes()).unwrap_or_exit();
     //println!("{}", svgx.print());
