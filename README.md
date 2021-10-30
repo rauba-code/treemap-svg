@@ -8,7 +8,7 @@ The following commands are supposed to be executed in Linux shell in the reposit
 
 Building and running on other systems (Windows, OSX, BSD) may differ.
 
-### [Install Rust](https://www.rust-lang.org/tools/install)
+### Install Rust and Cargo ([Linux/general](https://www.rust-lang.org/tools/install), [Windows](https://win.rustup.rs/))
 
 ### Building
 
@@ -30,20 +30,7 @@ You can run either through Cargo:
 
 `cargo install --path .`
 
-Currently, the program is installed for your user in `~/.cargo/bin`. Verify you have `~/.cargo/bin` included in your `$PATH`:
-
-```bash
-$ echo $PATH
-/usr/bin:/bin:...
-$ # if $PATH does not contain ~/.cargo/bin, then add it likewise:
-$ PATH=$PATH:/home/$USER/
-$ # Try to launch treemap-svg
-$ treemap.svg --version
-treemap-svg 0.1.0
-$ # if it works, persist $PATH variable:
-$ export PATH=$PATH
-```
-
+Currently, the program is installed for your user in `~/.cargo/bin`. Verify you have `~/.cargo/bin` included in your `$PATH`.
 
 ### Uninstalling
 
@@ -117,12 +104,13 @@ Lietuva:
 
 ## Remarks
 
-At the time of writing, this program is in an alpha stage. Feel free to contribute
+At the time of writing, this program is in an alpha stage. Feel free to contribute.
 
 ## Similar OSS projects
 
 The list may be incomplete.
 
+- Rust: [treemap](https://crates.io/crates/treemap)
 - R/ggplot2: [Treemap](https://github.com/mtennekes/treemap) [Treemapify](https://github.com/wilkox/treemapify), [Plotly](https://github.com/plotly/plotly.R)
 - Python: [Plotly](https://github.com/plotly/plotly.py)
 - Javascript: [Plotly](https://github.com/plotly/plotly.js)
